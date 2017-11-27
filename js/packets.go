@@ -1,9 +1,9 @@
 package js
 
 type RequestSendEmail struct {
-	To   string `json:"to"`
-	From string `json:"from"`
-	Body string `json:"body"`
+	To   []string `json:"to"`
+	From string   `json:"from"`
+	Body string   `json:"body"`
 }
 
 type ResponseSendEmail struct {
